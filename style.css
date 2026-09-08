@@ -1,19 +1,19 @@
 body {
     background: orangered;
 }
-.logo {
-  background: left / cover
-    url("https://rockandrollglobe.com/wp-content/uploads/2022/01/image3A40057_Glitch.jpg");
-  display: flex;
-  height: 400px;
-  align-items: center;
-  justify-content: center;
-  font:
-    bold fraktur (1em + 2 * (100vw - 120px) / 100) "Dancing Script",
-    fantasy;
-  color: rgb(84, 150, 84);
-  text-shadow: black 2px 2px 0.2rem;
-}
 h1 {
-  color: rgb(39, 8, 164);
+  color: rgb(2, 2, 81) ;
+}
+p {
+  font-style: italic ;
+}
+h2 {
+    color: rgb(1, 50, 1) ;
+}
+.box {
+  margin: 30px;
+  width: 50px;
+  height: 50px;
+  background-color: blue;
+  transform: rotate(0.13turn);
 }
