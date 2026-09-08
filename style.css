@@ -5,7 +5,7 @@ body {
   background: left / cover
     url("https://rockandrollglobe.com/wp-content/uploads/2022/01/image3A40057_Glitch.jpg");
   display: flex;
-  height: 120px;
+  height: 400px;
   align-items: center;
   justify-content: center;
   font:
@@ -13,4 +13,7 @@ body {
     fantasy;
   color: rgb(84, 150, 84);
   text-shadow: black 2px 2px 0.2rem;
+}
+h1 {
+  color: rgb(39, 8, 164);
 }
