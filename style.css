@@ -1,19 +1,22 @@
 body {
-    background: orangered;
+    background: rgb(169, 5, 5);
 }
 h1 {
-  color: rgb(2, 2, 81) ;
+  color: rgb(3, 3, 57) ;
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-weight: "bold"
 }
 p {
-  font-style: italic ;
+  color: Black ;
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-size: 13px ;
 }
 h2 {
-    color: rgb(1, 50, 1) ;
-}
-.box {
-  margin: 30px;
-  width: 50px;
-  height: 50px;
-  background-color: blue;
-  transform: rotate(0.13turn);
+    color: rgb(3, 3, 57) ;
+    font-family: "Helvetica", "Arial", sans-serif;
+ }   
+ul {
+  color: Black ;
+  font-family: "Trebuchet MS", "Verdana", sans-serif;
+  font-size: 15px ;
 }
