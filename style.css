@@ -33,6 +33,10 @@ ul {
   padding: 20px ;
   width: 300px ;
 }
+#me {
+  border: 8mm ridge rgba(129, 50, 220, 0.6);
+  width: 250px ;
+}
 #introduction {
 border: 4px dotted yellow
 }
@@ -40,5 +44,5 @@ border: 4px dotted yellow
 border: 4px solid yellowgreen
 }
 #horror-movie-list {
-border: 4px solid orange
+border: 4px solid orange ;
 }
