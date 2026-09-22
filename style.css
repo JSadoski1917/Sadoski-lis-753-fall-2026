@@ -9,23 +9,36 @@ h1 {
   font-size:45px ;
 }
 p {
-  color: Black ;
   font-family: "Helvetica", "Arial", sans-serif;
   font-style:normal ;
   font-weight:normal ;
   font-size: 15px ;
 }
 h2 {
-    color: rgb(3, 3, 57) ;
     font-family: "Helvetica", "Arial", sans-serif;
     font-style:normal ;
     font-weight:bold ;
     font-size:25px ;
  }   
 ul {
-  color: Black ;
   font-family: "Trebuchet MS", "Verdana", sans-serif;
   font-style:italic ;
   font-weight:normal ;
   font-size: 15px ;
+}
+.about-section {
+  background: green ;
+  color: yellow ;
+  margin: 40px ;
+  padding: 20px ;
+  width: 300px ;
+}
+#introduction {
+border: 4px dotted yellow
+}
+#interests {
+border: 4px solid yellowgreen
+}
+#horror-movie-list {
+border: 4px solid orange
 }
