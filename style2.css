@@ -1,5 +1,9 @@
 body {
     background: rgb(156, 119, 119);
+    display: grid;
+    height: 60px;
+    padding: 2rem;
+    place-items: center;
 }
 h1 {
   text-align: center;
@@ -50,7 +54,7 @@ ul {
 li {
     background-color: yellow;
     list-style: none;
-    padding: .5rem;
+    padding: 1rem;
 }
   .container {
   border: 2px solid black;
@@ -105,4 +109,10 @@ li {
   flex-grow: var(--grow-6);
   flex-shrink: var(--shrink-6);
   flex-basis: var(--basis-6);
+}
+.item:nth-child(7) {
+  background-color: #610150;
+  flex-grow: var(--grow-7);
+  flex-shrink: var(--shrink-7);
+  flex-basis: var(--basis-7);
 }
