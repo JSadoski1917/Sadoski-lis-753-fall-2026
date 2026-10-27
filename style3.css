@@ -113,3 +113,54 @@ article {
   background: yellow;
   border: solid black;
 }
+
+/* mobile */
+@media (max-width: 375px) {
+  header,
+  footer,
+  article {
+    margin: 8px;
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 32px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  h3 {
+    font-size: 22px;
+  }
+
+  h4 {
+    font-size: 14px;
+  }
+
+  td,
+  th {
+    padding: 6px 8px;
+  }
+  
+/* tablet */
+}
+@media (max-width: 768px) {
+  section:nth-of-type(1) {
+    flex-direction: column;
+    align-items: stretch;
+    min-width: 0;
+  }
+
+  table {
+    display: block;
+    max-width: 100%;
+    overflow-x: auto;
+  }
+
+/* desktop */
+}
+@media (max-width: 1200px) {
+
+}
