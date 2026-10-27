@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="author" content="James Sadoski" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta
+  name="description"
+  content="Creating a table." />
+    <title>TableTestPage</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Patrick+Hand&display=swap" rel="stylesheet">
+    <link href="style3.css" rel="stylesheet" />
+  </head>
+<body>
+<header>
+  <h1>Library Events</h1>
+</header>
+<section> 
+  <table>
+    <caption>Upcoming Programs</caption>
+    <thead>
+        <tr>
+            <th scope="col">Program</th>
+            <th scope="col">Date</th>
+            <th scope="col">Time</th>
+            <th scope="col">Location</th>
+            <th scope="col">Audience</th>
+        </tr>
+    </thead>
+
+    <tbody>
+    <tr>
+            <td>Community Book Club</td>
+            <td>Oct. 8</td>
+            <td>6:30 PM</td>
+            <td>Room A</td>
+            <td>Adults</td>
+    </tr>
+    <tr>
+            <td>Family Story Time</td>
+            <td>Oct. 10</td>
+            <td>10:00 AM</td>
+            <td>Children's Room</td>
+            <td>Families</td>
+    </tr>
+    <tr>
+            <td>Genealogy Workshop</td>
+            <td>Oct. 12</td>
+            <td>2:00 PM</td>
+            <td>Room B</td>
+            <td>Adults</td>
+    </tr>
+    <tr>
+            <td>Intro to 3D Printing</td>
+            <td>Oct. 15</td>
+            <td>6:00 PM</td>
+            <td>Makerspace</td>
+            <td>Teens and Adults</td>
+    </tr>
+    <tr>
+            <td>Local History Talk</td>
+            <td>Oct. 18</td>
+            <td>1:00 PM</td>
+            <td>Auditorium</td>
+            <td>Everyone</td>
+    </tr>
+    </tbody>
+</table>
+
+<article>
+    <h2>Register</h2>
+    <form>
+        <div>
+            <label for="name">Your Name</label>
+            <input type="text" name="name" id="name" required />
+        </div>
+        <div>
+            <label for="email">Your Email</label>
+            <input type="text" name="email" id="email" required />
+        </div>
+        <div>
+            <label for="program">Select Program</label>
+            <select name="program">
+                <option value="community-book-club">Community Book Club</option>
+                <option value="family-story-time">Family Story Time</option>
+                <option value="genealogy-workshop">Genealogy Workshop</option>
+                <option value="intro-to-3d-printing">Intro to 3D Printing</option>
+                <option value="local-history-talk">Local History Talk</option>
+            </select>
+        </div>
+        <div>
+            <input type="radio" id="in person" name="in-person" value="in person" />
+            <label for="in-person">In Person</label>
+        </div>
+         <div>
+            <input type="radio" id="online" name="online" value="online" />
+            <label for="online">Online</label>
+        </div>
+        <div>
+            <input type="submit" value= " Register ">
+        </div>
+    </form>
+</article>
+</section>
+
+<section>
+<article>
+  <h3>About These Programs</h3>
+  <p>
+      Additional information about registration, accessibility, age ranges, locations, or other useful details.
+  </p>
+</article>
+
+</section>
+<footer>
+    <h4>Library, Address, Phone, Hours</h4>
+    <p>
+        <href="#">Footer links/accesibility information/social links
+    </p>
+</footer>
+</body>
+</html>
