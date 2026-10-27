@@ -116,117 +116,51 @@ article {
 
 /* mobile */
 @media (max-width: 375px) {
-  
- } 
+  header,
+  footer,
+  article {
+    margin: 8px;
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 32px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  h3 {
+    font-size: 22px;
+  }
+
+  h4 {
+    font-size: 14px;
+  }
+
+  td,
+  th {
+    padding: 6px 8px;
+  }
+}
+
 /* tablet */
 @media (max-width: 768px) {
-
+  section:nth-of-type(1) {
+    flex-direction: column;
+    align-items: stretch;
+    min-width: 0;
   }
+
+  table {
+    display: block;
+    max-width: 100%;
+    overflow-x: auto;
+  }
+}
 
 /* desktop */
 @media (max-width: 1200px) {
-header {
-  background: yellow;
-  height: 100px;
-  border: solid black;
-  padding: 15px;
-  margin: 15px;
-}
-footer {
-  background: yellow;
-  height: 65px;
-  border: solid black;
-  padding: 15px;
-  margin: 15px;
-}
-h1 {
-  color: rgb(3, 3, 57) ;
-  text-align: center;
-  font-family: "Luckiest Guy", cursive;
-  font-style:normal ;
-  font-weight:bold ;
-  font-size:45px ;
-}
-h2 {
-  color: rgb(3, 3, 57) ;
-  font-family: "Luckiest Guy", cursive;
-  font-style:normal ;
-  font-weight:bold ;
-  font-size:35px ;
-}
-h3 {
-  color: rgb(3, 3, 57) ;
-  font-family: "Luckiest Guy", cursive;
-  font-style:normal ;
-  font-weight:bold ;
-  font-size:25px ;
-}
-h4 {
-color: rgb(3, 3, 57) ;
-  font-family: "Luckiest Guy", cursive;
-  font-style:normal ;
-  font-weight:bold ;
-  font-size:15px ;
-}
-p{
-  color: rgb(3, 3, 57) ;
-  font-family: "Patrick Hand", cursive;
-  font-style:normal ;
-  font-size:12px ;
-}
-p:hover {
-  color: black;
-  background: yellow;
-}
 
-table {
-  border-collapse: collapse;
-  border: 2px solid rgb(200 200 200);
-  letter-spacing: 1px;
-  font-size: 0.8rem;
-  padding: 10px;
-  margin: 15px;
-}
-
-td,
-th {
-  border: 1px solid rgb(190 190 190);
-  padding: 10px 20px;
-}
-
-th {
-  background-color: rgb(235 235 235);
-}
-
-td {
-  text-align: center;
-}
-
-tr:nth-child(even) td {
-  background-color: rgb(250 250 250);
-}
-
-tr:nth-child(odd) td {
-  background-color: rgb(245 245 245);
-}
-caption {
-  color: Yellow;
-  font-family: "Luckiest Guy", cursive;
-  font-style:normal ;
-  font-weight:bold ;
-  font-size:20px ;
-  padding: 10px;
-}
-section:nth-of-type(1) {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-}
-article {
-  flex: 1;
-  padding: 15px;
-  margin: 15px;
-  background: yellow;
-  border: solid black;
-}
 }
