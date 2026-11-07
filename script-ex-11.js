@@ -1,7 +1,7 @@
 const buttons = document.querySelectorAll(".details-button");
 const details = document.querySelectorAll(".program-details");
 
-buttons.foreach( function(button) {
+buttons.foreach(function(button) {
 
     button.addEventListener("click", function() {
 
