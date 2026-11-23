@@ -72,6 +72,38 @@ table {
   margin: 15px;
 }
 
+.table-wrapper {
+  flex: 1;
+  min-width: 0;
+  margin: 15px;
+}
+
+.table-scroll {
+  max-width: 100%;
+  overflow-x: auto;
+  border: 2px solid rgb(200 200 200);
+  background: white;
+  scrollbar-width: thin;
+  scrollbar-color: rgb(3, 3, 57) yellow;
+}
+
+.table-scroll:focus {
+  outline: 4px solid yellow;
+  outline-offset: 3px;
+}
+
+.table-scroll table {
+  margin: 0;
+  border: 0;
+  min-width: 720px;
+}
+
+.scroll-hint {
+  display: none;
+  margin: 0 0 6px;
+  font-weight: bold;
+}
+
 td,
 th {
   border: 1px solid rgb(190 190 190);
@@ -153,10 +185,12 @@ article {
     min-width: 0;
   }
 
-  table {
+  .table-wrapper {
+    margin: 8px;
+  }
+
+  .scroll-hint {
     display: block;
-    max-width: 100%;
-    overflow-x: auto;
   }
 }
 
