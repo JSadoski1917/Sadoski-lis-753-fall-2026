@@ -126,7 +126,7 @@ tr:nth-child(odd) td {
   background-color: rgb(245 245 245);
 }
 caption {
-  color: #8b0000;
+  color: yellow;
   font-family: "Luckiest Guy", cursive;
   font-style:normal ;
   font-weight:bold ;
